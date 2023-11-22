@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "desserts_recipes",
+  "info": {
+    "singularName": "desserts-recipe",
+    "pluralName": "desserts-recipes",
+    "displayName": "desserts-recipes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "totalIngredients": {
+      "type": "string",
+      "required": true
+    },
+    "ingredientsRequired": {
+      "type": "json",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

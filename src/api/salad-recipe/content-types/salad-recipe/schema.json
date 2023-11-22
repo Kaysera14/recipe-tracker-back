@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "salad_recipes",
+  "info": {
+    "singularName": "salad-recipe",
+    "pluralName": "salad-recipes",
+    "displayName": "salad-recipe"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "totalIngredients": {
+      "type": "string",
+      "required": true
+    },
+    "ingredientsRequired": {
+      "type": "json",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
